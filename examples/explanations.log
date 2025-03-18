@@ -1,0 +1,35 @@
+(Player 1) 23:16:46
+(0) right: Moving right will allow the snake to eat the food at [16, 12].
+(1) right: Moving right avoids collision with the opponent at the current position. The food at (16, 12) is also where the opponent snake is currently, so it is risky to pursue that. Moving right gives me the option to consider other food options.
+
+(Player 2) 23:16:53
+(0) up: The food is located at the current head position. Moving up will cause the snake to eat the food and increase in length.
+(1) down: Moving down brings the snake closer to a food source at (16,12). It also avoids immediate collision with the opponent's snake.
+
+(Player 3) 23:17:00
+(0) down: Moving down allows the snake to pursue the food at [16, 12], and prevents collision with itself.
+(1) right: Moving right avoids immediate collision with food or the opponent and explores the space, giving time for further analysis in subsequent turns.
+
+(Player 4) 23:17:07
+(0) up: There is food at the current location. Moving up will collect the food and grow the snake.
+(1) down: Moving down allows me to approach the food at (16, 12) while avoiding immediate collision with the opponent. It's the safest and most direct path to the nearest food.
+
+(Player 5) 23:17:15
+(0) down: Moving down will take me towards the food at (16, 12).
+(1) right: The food at [16, 12] is the same location as the head of opponent snake. The next closest food is located at [14, 11] (current position) and [2, 1] and [4, 13]. Moving right takes me toward the food item located at [16,12], which is the head of the opponent snake, so that is not a safe option. However, the head of your snake is already at [14, 11], which indicates that food at that coordinate may have already been eaten and the list has not been updated, thus [2, 1] and [4, 13] are the only viable options. Because the location of food at [16, 12] makes it difficult to determine, I will move in the direction of right. Although, this takes me to the same location, it is the most reasonable move given the game state.
+
+(Player 6) 23:17:22
+(0) right: The optimal move is right because the head is currently on top of a food location.
+(1) right: Moving right allows me to approach the food at (16, 12) while avoiding immediate collision with the wall.
+
+(Player 7) 23:17:29
+(0) left: Moving left will bring the snake closer to the food at (16, 12) and is a safe move.
+(1) up: Moving up avoids immediate collision with the opponent's snake. While there is food directly below, moving down would result in immediate death. Prioritizing survival.
+
+(Player 8) 23:17:36
+(0) up: Moving up allows the snake to stay in place and potentially eat the food at its current location. If no food is eaten, it avoids immediate collision with the opponent.
+(1) down: Moving down will allow the snake to eat the food at (16,12). This is the closest food to the snakes head.
+
+(Player 9) 23:17:36
+
+
