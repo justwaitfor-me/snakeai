@@ -1,0 +1,32 @@
+project: 
+  name: snake.ai
+  version: v0.1.0
+  author: justwaitfor-me
+
+game:
+  title: "Snake Game"
+  screen_width: 400
+  screen_height: 400
+  block_size: 20
+  font_sizes:
+    small: 18
+    middle: 26
+    large: 48
+  snakes:
+    - [0, 255, 0]  
+    - [255, 255, 0]  
+  food_color: [255, 255, 255] # White
+  grid_color: [200, 200, 200] # Light Gray
+  background_color: [0, 0, 0] # Black
+
+food:
+  set_count: 1
+  per_snake: 1
+  spawn_min: 0
+  spawn_max: 20
+
+settings:
+  move_delay: 0.5 # Delay between moves in seconds
+  debug_mode: false
+  show_header: true
+  header_height: 100
